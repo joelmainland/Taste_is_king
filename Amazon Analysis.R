@@ -99,7 +99,7 @@ taste.counts <- taste.counts %>%
 taste.counts$category <- "Taste"
 
 # Price ####
-costList <- c("price","value","savings","deal","cheaper","discount","bargain","pricing","offers","sale")
+costList <- c("price","value","savings","deal","cheaper","discount","bargain","pricing","offers","sale", "cost")
 
 price.counts <- data.frame(word = costList)
 price.counts$count <- NA
